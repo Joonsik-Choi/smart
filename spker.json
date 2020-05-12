@@ -1,0 +1,36 @@
+{
+"version":"2.0",
+"action":{
+"actionName":"answer.test",
+"parameters":{
+"content":{
+"type":"MSG_BODY",
+  "value":"안녕"}
+,"name":{
+"type":"ENTITY_NAME",
+    "value":"수인"},
+  "response":{
+    "type":"string",
+    "value":"ㅎㅇㅎㅇ"}
+}
+}
+,"context":{
+"session":{
+  "isPlayBuilderRequest":true,
+  "id":"b468bfc0-7576-41fc-8d36-a58624ef8c55",
+  "isNew":true},
+"supportedInterfaces":{
+},
+"device":{
+"type":"speaker",
+"state":{}}}}
+,
+{
+  "version": "2.0",
+  "resultCode": "OK",
+  "output": {
+    "content": "안녕",
+    "name": "수인",
+    "response" :"ㅎㅇㅎㅇ"
+  }
+}
